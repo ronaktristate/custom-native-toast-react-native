@@ -1,0 +1,38 @@
+{
+  "name": "react-native-custom-native-toast-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "devDependencies": {
+    "react-native": "^0.66.3",
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "description": "How to create third party package for react native",
+  "main": "index.js",
+  "author": "RonakKotak",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronaktristate/custom-native-toast-react-native.git"
+  },
+  "homepage": "https://github.com/ronaktristate/custom-native-toast-react-native",
+  "jest": {
+    "preset": "react-native"
+  }
+}
