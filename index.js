@@ -1,6 +1,8 @@
 
-import { NativeModules } from 'react-native';
+import { NativeModules, Platform } from 'react-native';
 
-const { RNCustomNativeToastDemo } = NativeModules;
+const { RNCustomNativeToastDemo, RNNativeToastLibrary } = NativeModules;
 
-export default RNCustomNativeToastDemo;
+const ToastDemo = Platform.OS == "android" ? RNCustomNativeToastDemo : RNNativeToastLibrary
+
+export default ToastDemo;
